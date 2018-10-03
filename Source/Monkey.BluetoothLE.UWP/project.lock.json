@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "UAP,Version=v10.0.10586": {
+    "UAP,Version=v10.0.14393": {
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2388,10 +2388,11 @@
         }
       },
       "Monkey.BluetoothLE.Core/1.0.0": {
-        "type": "project"
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0"
       }
     },
-    "UAP,Version=v10.0.10586/win10-arm": {
+    "UAP,Version=v10.0.14393/win10-arm": {
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4833,10 +4834,11 @@
         }
       },
       "Monkey.BluetoothLE.Core/1.0.0": {
-        "type": "project"
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0"
       }
     },
-    "UAP,Version=v10.0.10586/win10-arm-aot": {
+    "UAP,Version=v10.0.14393/win10-arm-aot": {
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -7314,10 +7316,11 @@
         }
       },
       "Monkey.BluetoothLE.Core/1.0.0": {
-        "type": "project"
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0"
       }
     },
-    "UAP,Version=v10.0.10586/win10-x64": {
+    "UAP,Version=v10.0.14393/win10-x64": {
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -9768,10 +9771,11 @@
         }
       },
       "Monkey.BluetoothLE.Core/1.0.0": {
-        "type": "project"
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0"
       }
     },
-    "UAP,Version=v10.0.10586/win10-x64-aot": {
+    "UAP,Version=v10.0.14393/win10-x64-aot": {
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -12258,10 +12262,11 @@
         }
       },
       "Monkey.BluetoothLE.Core/1.0.0": {
-        "type": "project"
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0"
       }
     },
-    "UAP,Version=v10.0.10586/win10-x86": {
+    "UAP,Version=v10.0.14393/win10-x86": {
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -14712,10 +14717,11 @@
         }
       },
       "Monkey.BluetoothLE.Core/1.0.0": {
-        "type": "project"
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0"
       }
     },
-    "UAP,Version=v10.0.10586/win10-x86-aot": {
+    "UAP,Version=v10.0.14393/win10-x86-aot": {
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -17202,13 +17208,14 @@
         }
       },
       "Monkey.BluetoothLE.Core/1.0.0": {
-        "type": "project"
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0"
       }
     }
   },
   "libraries": {
     "Microsoft.CSharp/4.3.0": {
-      "sha512": "P+MBhIM0YX+JqROuf7i306ZLJEjQYA9uUyRDE+OqwUI5sh41e2ZbPQV3LfAPh+29cmceE1pUffXsGfR4eMY3KA==",
+      "sha512": "4e6MSdwpD5QBBlETrooCb5Z56iR3mM+eE6AUOU3Uoce9KYnHBUy05rz1IoCfqjP1iWD6rCGCHljWXcwg2uqy8Q==",
       "type": "package",
       "path": "microsoft.csharp/4.3.0",
       "files": [
@@ -17408,7 +17415,7 @@
       ]
     },
     "Microsoft.NETCore.UniversalWindowsPlatform/5.2.2": {
-      "sha512": "9UHv2YObWmcF8gqtBoDC4UW5gdHzFRtaZ5KtB9QKvCy+NC9LH1DMYyOI/ltupjVZlwYEulj3msjBXys9/QI6nw==",
+      "sha512": "eHccUiYTkiY8xeixRA0DV9mcFpi9GA9UzKt3v0d6NtNGrGefhmqwnb60PSWQPe49tXbxZaP0x+W0ghvj6hflHg==",
       "type": "package",
       "path": "microsoft.netcore.universalwindowsplatform/5.2.2",
       "files": [
@@ -17521,7 +17528,7 @@
       ]
     },
     "Newtonsoft.Json/10.0.3": {
-      "sha512": "wBM7i7i3U2WX0ecor4zdVGvgrwFUjuigBoHKiL+nH39fCOpCPjBY3RDqJM32edvdyTAVdjzlccHsg41+/+zpSA==",
+      "sha512": "hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
       "type": "package",
       "path": "newtonsoft.json/10.0.3",
       "files": [
@@ -19632,7 +19639,7 @@
       ]
     },
     "System.Dynamic.Runtime/4.3.0": {
-      "sha512": "SNVi1E/vfWUAs/WYKhE9+qlS6KqK0YVhnlT0HQtr8pMIA8YX3lwy3uPMownDwdYISBdmAF/2holEIldVp85Wag==",
+      "sha512": "nCtquE5CBikmztxm+6JLi9VG517p24J9z0gPwbHxnj53JjOixKH86/aLpSZVMkS6nP6F+k+Afl39dEu0petstQ==",
       "type": "package",
       "path": "system.dynamic.runtime/4.3.0",
       "files": [
@@ -23813,19 +23820,19 @@
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.2.2",
       "Newtonsoft.Json >= 10.0.3"
     ],
-    "UAP,Version=v10.0.10586": []
+    "UAP,Version=v10.0.14393": []
   },
   "packageFolders": {
     "C:\\Users\\Adrian\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "F:\\xam\\Monkey.Robotics\\Source\\Monkey.BluetoothLE.UWP\\Monkey.BluetoothLE.UWP.csproj",
+      "projectUniqueName": "F:\\WL\\Monkey.BluetoothLE\\Source\\Monkey.BluetoothLE.UWP\\Monkey.BluetoothLE.UWP.csproj",
       "projectName": "Monkey.BluetoothLE.UWP",
-      "projectPath": "F:\\xam\\Monkey.Robotics\\Source\\Monkey.BluetoothLE.UWP\\Monkey.BluetoothLE.UWP.csproj",
-      "projectJsonPath": "F:\\xam\\Monkey.Robotics\\Source\\Monkey.BluetoothLE.UWP\\project.json",
+      "projectPath": "F:\\WL\\Monkey.BluetoothLE\\Source\\Monkey.BluetoothLE.UWP\\Monkey.BluetoothLE.UWP.csproj",
+      "projectJsonPath": "F:\\WL\\Monkey.BluetoothLE\\Source\\Monkey.BluetoothLE.UWP\\project.json",
       "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
-      "outputPath": "F:\\xam\\Monkey.Robotics\\Source\\Monkey.BluetoothLE.UWP\\obj\\",
+      "outputPath": "F:\\WL\\Monkey.BluetoothLE\\Source\\Monkey.BluetoothLE.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -23833,26 +23840,24 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "f:\\LocalNuget": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/xamarinforms-dev/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "uap10.0.10586": {
+        "uap10.0.14393": {
           "projectReferences": {
-            "F:\\xam\\Monkey.Robotics\\Source\\Monkey.BluetoothLE.Core\\Monkey.BluetoothLE.Core.csproj": {
-              "projectPath": "F:\\xam\\Monkey.Robotics\\Source\\Monkey.BluetoothLE.Core\\Monkey.BluetoothLE.Core.csproj"
+            "F:\\WL\\Monkey.BluetoothLE\\Source\\Monkey.BluetoothLE.Core\\Monkey.BluetoothLE.Core.csproj": {
+              "projectPath": "F:\\WL\\Monkey.BluetoothLE\\Source\\Monkey.BluetoothLE.Core\\Monkey.BluetoothLE.Core.csproj"
             }
           }
         }
       }
     },
     "dependencies": {
-      "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
-      "Newtonsoft.Json": "10.0.3"
+      "Microsoft.NETCore.UniversalWindowsPlatform": "[5.2.2, )",
+      "Newtonsoft.Json": "[10.0.3, )"
     },
     "frameworks": {
-      "uap10.0.10586": {}
+      "uap10.0.14393": {}
     },
     "runtimes": {
       "win10-arm": {
@@ -23874,5 +23879,70 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Monkey.BluetoothLE.Core is not compatible with uap10.0.14393 (UAP,Version=v10.0.14393). Project Monkey.BluetoothLE.Core supports: netstandard2.0 (.NETStandard,Version=v2.0)",
+      "libraryId": "Monkey.BluetoothLE.Core",
+      "targetGraphs": [
+        "UAP,Version=v10.0.14393"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Monkey.BluetoothLE.Core is not compatible with uap10.0.14393 (UAP,Version=v10.0.14393) / win10-arm. Project Monkey.BluetoothLE.Core supports: netstandard2.0 (.NETStandard,Version=v2.0)",
+      "libraryId": "Monkey.BluetoothLE.Core",
+      "targetGraphs": [
+        "UAP,Version=v10.0.14393/win10-arm"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Monkey.BluetoothLE.Core is not compatible with uap10.0.14393 (UAP,Version=v10.0.14393) / win10-arm-aot. Project Monkey.BluetoothLE.Core supports: netstandard2.0 (.NETStandard,Version=v2.0)",
+      "libraryId": "Monkey.BluetoothLE.Core",
+      "targetGraphs": [
+        "UAP,Version=v10.0.14393/win10-arm-aot"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Monkey.BluetoothLE.Core is not compatible with uap10.0.14393 (UAP,Version=v10.0.14393) / win10-x64. Project Monkey.BluetoothLE.Core supports: netstandard2.0 (.NETStandard,Version=v2.0)",
+      "libraryId": "Monkey.BluetoothLE.Core",
+      "targetGraphs": [
+        "UAP,Version=v10.0.14393/win10-x64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Monkey.BluetoothLE.Core is not compatible with uap10.0.14393 (UAP,Version=v10.0.14393) / win10-x64-aot. Project Monkey.BluetoothLE.Core supports: netstandard2.0 (.NETStandard,Version=v2.0)",
+      "libraryId": "Monkey.BluetoothLE.Core",
+      "targetGraphs": [
+        "UAP,Version=v10.0.14393/win10-x64-aot"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Monkey.BluetoothLE.Core is not compatible with uap10.0.14393 (UAP,Version=v10.0.14393) / win10-x86. Project Monkey.BluetoothLE.Core supports: netstandard2.0 (.NETStandard,Version=v2.0)",
+      "libraryId": "Monkey.BluetoothLE.Core",
+      "targetGraphs": [
+        "UAP,Version=v10.0.14393/win10-x86"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Monkey.BluetoothLE.Core is not compatible with uap10.0.14393 (UAP,Version=v10.0.14393) / win10-x86-aot. Project Monkey.BluetoothLE.Core supports: netstandard2.0 (.NETStandard,Version=v2.0)",
+      "libraryId": "Monkey.BluetoothLE.Core",
+      "targetGraphs": [
+        "UAP,Version=v10.0.14393/win10-x86-aot"
+      ]
+    }
+  ]
 }
